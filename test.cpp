@@ -1,4 +1,6 @@
 /**
+* @verbatim return abcd @endverbatim
+*
 *  @param[out] dest Destination pointer.
 *  @param[in]  src  Source pointer
 *  @param      n    number of bytes
