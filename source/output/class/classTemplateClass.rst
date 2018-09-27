@@ -1,0 +1,4 @@
+Class TemplateClass
+===================
+
+.. doxygenclass:: TemplateClass

@@ -1,8 +1,16 @@
-/**
-* @verbatim return abcd @endverbatim
-*
-*  @param[out] dest Destination pointer.
-*  @param[in]  src  Source pointer
-*  @param      n    number of bytes
+/*!
+A generic template class.
 */
-void *memcpy(void *dest, const void *src, size_t n);
+template<typename T>
+class TemplateClass
+{
+};
+
+/*!
+A partial specialization of TemplateClass for pointer types.
+*/
+template<typename T>
+class TemplateClass<T*>
+{
+};
+

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classTemplateClass_3_01T_01_5_01_4" kind="class" language="C++" prot="public">
+    <compoundname>TemplateClass&lt; T * &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A partial specialization of <ref refid="classTemplateClass" kindref="compound">TemplateClass</ref> for pointer types. </para>    </detaileddescription>
+    <location file="test.cpp" line="23" column="1" bodyfile="test.cpp" bodystart="22" bodyend="24"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

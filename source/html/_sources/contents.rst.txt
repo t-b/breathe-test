@@ -1,0 +1,7 @@
+.. doxygenclass:: TemplateClass
+   :project: template_specialisation
+   :no-link:
+
+.. doxygenclass:: TemplateClass< T * >
+   :project: template_specialisation
+   :no-link:
