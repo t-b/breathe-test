@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="structstr_test_suite" kind="struct" language="C++" prot="public">
+    <compoundname>strTestSuite</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstr_test_suite_1a80b9542737ce08a2550c80a06e9d7fc8" prot="public" static="no" mutable="no">
+        <type>variable</type>
+        <definition>variable strTestSuite::errors</definition>
+        <argsstring></argsstring>
+        <name>errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="2" column="10" bodyfile="test.cpp" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstr_test_suite_1af00c334b9ec75e569c0bce90d28140ef" prot="public" static="no" mutable="no">
+        <type>variable C</type>
+        <definition>variable C strTestSuite::skipped</definition>
+        <argsstring></argsstring>
+        <name>skipped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="3" column="11" bodyfile="test.cpp" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="test.cpp" line="1" column="1" bodyfile="test.cpp" bodystart="1" bodyend="4"/>
+    <listofallmembers>
+      <member refid="structstr_test_suite_1a80b9542737ce08a2550c80a06e9d7fc8" prot="public" virt="non-virtual"><scope>strTestSuite</scope><name>errors</name></member>
+      <member refid="structstr_test_suite_1af00c334b9ec75e569c0bce90d28140ef" prot="public" virt="non-virtual"><scope>strTestSuite</scope><name>skipped</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

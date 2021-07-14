@@ -1,16 +1,4 @@
-/*!
-A generic template class.
-*/
-template<typename T>
-class TemplateClass
-{
+struct strTestSuite{;
+	variable errors;
+	variable/C skipped;
 };
-
-/*!
-A partial specialization of TemplateClass for pointer types.
-*/
-template<typename T>
-class TemplateClass<T*>
-{
-};
-

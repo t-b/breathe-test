@@ -1,0 +1,4 @@
+Struct strTestSuite
+===================
+
+.. doxygenstruct:: strTestSuite

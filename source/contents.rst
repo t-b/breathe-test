@@ -1,7 +1,5 @@
-.. doxygenclass:: TemplateClass
-   :project: test
-   :no-link:
+.. toctree::
+  :maxdepth: 1
 
-.. doxygenclass:: TemplateClass< T * >
-   :project: test
-   :no-link:
+  output/structlist
+  output/filelist

@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
-  <compound refid="classTemplateClass" kind="class"><name>TemplateClass</name>
-  </compound>
-  <compound refid="classTemplateClass_3_01T_01_5_01_4" kind="class"><name>TemplateClass&lt; T * &gt;</name>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="structstr_test_suite" kind="struct"><name>strTestSuite</name>
+    <member refid="structstr_test_suite_1a80b9542737ce08a2550c80a06e9d7fc8" kind="variable"><name>errors</name></member>
+    <member refid="structstr_test_suite_1af00c334b9ec75e569c0bce90d28140ef" kind="variable"><name>skipped</name></member>
   </compound>
   <compound refid="test_8cpp" kind="file"><name>test.cpp</name>
-    <member refid="test_8cpp_1a14938524dcbeb59d7117ba5e151ad1b1" kind="function"><name>memcpy</name></member>
   </compound>
 </doxygenindex>
