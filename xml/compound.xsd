@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+
   <xsd:element name="doxygen" type="DoxygenType"/>
 
   <!-- Complex types -->
@@ -9,6 +11,7 @@
       <xsd:element name="compounddef" type="compounddefType" minOccurs="0" />
     </xsd:sequence>
     <xsd:attribute name="version" type="DoxVersionNumber" use="required" />
+    <xsd:attribute ref="xml:lang" use="required"/>
   </xsd:complexType>
 
   <xsd:complexType name="compounddefType">
@@ -43,6 +46,7 @@
     <xsd:attribute name="language" type="DoxLanguage" use="optional"/>
     <xsd:attribute name="prot" type="DoxProtectionKind" />
     <xsd:attribute name="final" type="DoxBool" use="optional"/>
+    <xsd:attribute name="inline" type="DoxBool" use="optional"/>
     <xsd:attribute name="sealed" type="DoxBool" use="optional"/>
     <xsd:attribute name="abstract" type="DoxBool" use="optional"/>
   </xsd:complexType>
@@ -104,6 +108,7 @@
       <xsd:extension base="xsd:string">
         <xsd:attribute name="refid" type="xsd:string" />
         <xsd:attribute name="prot" type="DoxProtectionKind" use="optional"/>
+        <xsd:attribute name="inline" type="DoxBool" use="optional"/>
       </xsd:extension>
     </xsd:simpleContent>
   </xsd:complexType>
@@ -803,6 +808,7 @@
     </xsd:sequence>
     <xsd:attribute name="rows" type="xsd:integer" />
     <xsd:attribute name="cols" type="xsd:integer" />
+    <xsd:attribute name="width" type="xsd:string" />
   </xsd:complexType>
 
   <xsd:complexType name="docRowType">
@@ -819,6 +825,8 @@
     <xsd:attribute name="colspan" type="xsd:integer" />
     <xsd:attribute name="rowspan" type="xsd:integer" />
     <xsd:attribute name="align" type="DoxAlign" />
+    <xsd:attribute name="valign" type="DoxVerticalAlign" />
+    <xsd:attribute name="width" type="xsd:string" />
     <xsd:attribute name="class" type="xsd:string" />
     <xsd:anyAttribute processContents="skip"/>
   </xsd:complexType>
@@ -838,6 +846,7 @@
     <xsd:attribute name="name" type="xsd:string" use="optional"/>
     <xsd:attribute name="width" type="xsd:string" use="optional"/>
     <xsd:attribute name="height" type="xsd:string" use="optional"/>
+    <xsd:attribute name="alt" type="xsd:string" use="optional"/>
     <xsd:attribute name="inline" type="DoxBool" use="optional"/>
     <xsd:attribute name="caption" type="xsd:string" use="optional"/>
   </xsd:complexType>
@@ -1191,6 +1200,14 @@
       <xsd:enumeration value="left"/>
       <xsd:enumeration value="right"/>
       <xsd:enumeration value="center"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="DoxVerticalAlign">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="bottom"/>
+      <xsd:enumeration value="top"/>
+      <xsd:enumeration value="middle"/>
     </xsd:restriction>
   </xsd:simpleType>
 

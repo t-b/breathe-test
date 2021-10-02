@@ -1,24 +1,25 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
   <compounddef id="structstr_test_suite" kind="struct" language="C++" prot="public">
     <compoundname>strTestSuite</compoundname>
       <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structstr_test_suite_1a80b9542737ce08a2550c80a06e9d7fc8" prot="public" static="no" mutable="no">
-        <type>variable</type>
-        <definition>variable strTestSuite::errors</definition>
+      <memberdef kind="variable" id="structstr_test_suite_1a3c21ed856fb8a0eb53fd7fdff13e9c2d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int strTestSuite::errors</definition>
         <argsstring></argsstring>
         <name>errors</name>
         <briefdescription>
+<para><anchor id="namespace_3global_scope_4_1myAnchor"/>{ </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test.cpp" line="2" column="10" bodyfile="test.cpp" bodystart="1" bodyend="-1"/>
+        <location file="test.cpp" line="13" column="5" bodyfile="test.cpp" bodystart="10" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structstr_test_suite_1af00c334b9ec75e569c0bce90d28140ef" prot="public" static="no" mutable="no">
-        <type>variable C</type>
-        <definition>variable C strTestSuite::skipped</definition>
+      <memberdef kind="variable" id="structstr_test_suite_1a81751c5472134a27f3c321f9ef6648c3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int strTestSuite::skipped</definition>
         <argsstring></argsstring>
         <name>skipped</name>
         <briefdescription>
@@ -27,17 +28,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="test.cpp" line="3" column="11" bodyfile="test.cpp" bodystart="3" bodyend="-1"/>
+        <location file="test.cpp" line="14" column="5" bodyfile="test.cpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Inserting additional reStructuredText information.</para>
+<para><verbatim>embed:rst:leading-asterisk
+*
+* See also :ref:`myAnchor`.
+* </verbatim> </para>
     </detaileddescription>
-    <location file="test.cpp" line="1" column="1" bodyfile="test.cpp" bodystart="1" bodyend="4"/>
+    <location file="test.cpp" line="10" column="1" bodyfile="test.cpp" bodystart="10" bodyend="16"/>
     <listofallmembers>
-      <member refid="structstr_test_suite_1a80b9542737ce08a2550c80a06e9d7fc8" prot="public" virt="non-virtual"><scope>strTestSuite</scope><name>errors</name></member>
-      <member refid="structstr_test_suite_1af00c334b9ec75e569c0bce90d28140ef" prot="public" virt="non-virtual"><scope>strTestSuite</scope><name>skipped</name></member>
+      <member refid="structstr_test_suite_1a3c21ed856fb8a0eb53fd7fdff13e9c2d" prot="public" virt="non-virtual"><scope>strTestSuite</scope><name>errors</name></member>
+      <member refid="structstr_test_suite_1a81751c5472134a27f3c321f9ef6648c3" prot="public" virt="non-virtual"><scope>strTestSuite</scope><name>skipped</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

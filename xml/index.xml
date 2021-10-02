@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
   <compound refid="structstr_test_suite" kind="struct"><name>strTestSuite</name>
-    <member refid="structstr_test_suite_1a80b9542737ce08a2550c80a06e9d7fc8" kind="variable"><name>errors</name></member>
-    <member refid="structstr_test_suite_1af00c334b9ec75e569c0bce90d28140ef" kind="variable"><name>skipped</name></member>
+    <member refid="structstr_test_suite_1a3c21ed856fb8a0eb53fd7fdff13e9c2d" kind="variable"><name>errors</name></member>
+    <member refid="structstr_test_suite_1a81751c5472134a27f3c321f9ef6648c3" kind="variable"><name>skipped</name></member>
   </compound>
   <compound refid="test_8cpp" kind="file"><name>test.cpp</name>
   </compound>
